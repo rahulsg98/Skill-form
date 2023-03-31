@@ -172,3 +172,18 @@ body {
   outline: none;
   box-shadow: 0 0 0 2px #888;
 }
+
+@media screen and (max-width: 1000px) {
+  .main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .part1{
+    width: 90%;
+  }
+  .part2{
+    width: 90%;
+  }
+}
