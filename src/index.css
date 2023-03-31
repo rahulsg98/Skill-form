@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+.main{
+  display: flex;
+  flex: 1; 
+  width: 100%;
+  height: 100vh;
+  background: #78AEFF;
+  justify-content: center;
+  gap: 5vh;
+}
+
+.part1{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  color: #fff;
+  /* line-height: 6vh; */
+}
+
+.part1 h1{
+  font-weight: 900;
+  font-size: 38px;
+  letter-spacing: 0.055em;
+  width: 70%;
+  line-height: 6vh;
+}
+
+.part1 p{
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.018em;
+  width: 100%;
+  margin-top: -5px;
+  line-height: 5vh;
+}
+
+.part2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+  width: 45%;
+}
+
+.part2 .offer-text{
+  padding: 2vh;
+  width: 60%;
+  text-align: center;
+  background: #F00000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.part2 .offer-text span{
+  font-weight: 900;
+}
+
+.part2 .form-fill{
+  width: 65%;
+  height: 65vh;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.part2 form{
+  display: flex;
+  flex-direction: column;
+  padding: 4vh;
+  margin-top: 1vh;
+  gap: 3vh;
+}
+
+.part2 form .form-control{
+  padding: 2vh;
+  font-size: 14px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  border-color: #dadada;
+  letter-spacing: 0.04em;
+}
+
+.part2 form #skills{
+  color: #777;
+}
+
+.part2 form button{
+  padding: 2vh;
+  background: #B5B5B5;
+  border-color: #B5B5B5;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.46);
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 0vh;
+}
+
+.part2 form p{
+  font-weight: 500;
+  margin-top: 0vh;
+  font-size: 10px;
+  text-align: center;
+  color: #c2c2c2;
+}
+
+.part2 form p span{
+  color: #ff0000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.selected-skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 14px;
+  margin-top: -1vh;
+  gap: 1px;
+}
+
+.selected-skill {
+  width: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  margin-right: 1px;
+  margin-bottom: -10px;
+  background-color: #dcdcdc;
+  border-radius: 10px;
+}
+
+.selected-skill span {
+  margin-right: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 1px;
+  color: #777;
+}
+
+.selected-skill h1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 10px;
+  font-weight:400;
+  text-align: center;
+  color: #777;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.selected-skill h1:hover {
+  background-color: #aaa;
+}
+
+.selected-skill h1:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #888;
+}
